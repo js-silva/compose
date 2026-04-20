@@ -44,6 +44,38 @@ services:
           - /auth/v1/verify
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
   - name: auth-v1-open-callback
     url: http://auth:9999/callback
     routes:
@@ -53,6 +85,38 @@ services:
           - /auth/v1/callback
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
   - name: auth-v1-open-authorize
     url: http://auth:9999/authorize
     routes:
@@ -62,6 +126,38 @@ services:
           - /auth/v1/authorize
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
 
   ## Secure Auth routes
   - name: auth-v1
@@ -74,6 +170,38 @@ services:
           - /auth/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: false
@@ -95,6 +223,38 @@ services:
           - /rest/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: true
@@ -116,6 +276,38 @@ services:
           - /graphql/v1
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: true
@@ -143,6 +335,38 @@ services:
           - /realtime/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: false
@@ -163,6 +387,38 @@ services:
           - /realtime/v1/api
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: false
@@ -183,6 +439,38 @@ services:
           - /storage/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
 
   ## Edge Functions routes
   - name: functions-v1
@@ -195,6 +483,38 @@ services:
           - /functions/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
 
   ## Analytics routes
   - name: analytics-v1
@@ -260,12 +580,6 @@ services:
       # 2. Uncomment the entire section below, including 'deny'
       # 3. Add your local IPs to the 'allow' list
       #- name: cors
-      #- name: ip-restriction
-      #  config:
-      #    allow:
-      #      - 127.0.0.1
-      #      - ::1
-      #    deny: []
 
   ## Protected Dashboard - catch all remaining routes
   - name: dashboard
@@ -278,6 +592,38 @@ services:
           - /
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://asset-gallery-prime.lovable.app"
+            - "https://supabase.courses.3dthink.cloud"
+            - "https://3dthink.com.mx"
+            - "https://www.3dthink.com.mx"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: basic-auth
         config:
           hide_credentials: true
