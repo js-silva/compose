@@ -44,6 +44,36 @@ services:
           - /auth/v1/verify
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
   - name: auth-v1-open-callback
     url: http://auth:9999/callback
     routes:
@@ -53,6 +83,36 @@ services:
           - /auth/v1/callback
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
   - name: auth-v1-open-authorize
     url: http://auth:9999/authorize
     routes:
@@ -62,6 +122,36 @@ services:
           - /auth/v1/authorize
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
 
   ## Secure Auth routes
   - name: auth-v1
@@ -74,6 +164,36 @@ services:
           - /auth/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: false
@@ -95,6 +215,36 @@ services:
           - /rest/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: true
@@ -116,6 +266,36 @@ services:
           - /graphql/v1
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: true
@@ -143,6 +323,36 @@ services:
           - /realtime/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: false
@@ -163,6 +373,36 @@ services:
           - /realtime/v1/api
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: key-auth
         config:
           hide_credentials: false
@@ -183,6 +423,36 @@ services:
           - /storage/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
 
   ## Edge Functions routes
   - name: functions-v1
@@ -195,6 +465,36 @@ services:
           - /functions/v1/
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
 
   ## Analytics routes
   - name: analytics-v1
@@ -278,6 +578,36 @@ services:
           - /
     plugins:
       - name: cors
+        config:
+          origins:
+            - "https://ndigital.lovable.app"
+            - "https://supabase.ndigital.3dthink.cloud"
+          methods:
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+            - OPTIONS
+            - HEAD
+          headers:
+            - Accept
+            - Accept-Version
+            - Content-Length
+            - Content-MD5
+            - Content-Type
+            - Date
+            - X-Auth-Token
+            - Authorization
+            - apikey
+            - x-client-info
+          exposed_headers:
+            - X-Auth-Token
+            - Content-Range
+            - Content-Length
+          credentials: true
+          max_age: 3600
+          preflight_continue: false
       - name: basic-auth
         config:
           hide_credentials: true
