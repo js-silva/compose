@@ -76,6 +76,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -124,6 +126,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -172,6 +176,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -223,6 +229,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -283,6 +291,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -343,6 +353,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -409,6 +421,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -468,6 +482,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -527,6 +543,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -578,6 +596,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -700,6 +720,8 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
+            - prefer
+            - x-retry-count
           exposed_headers:
             - X-Auth-Token
             - Content-Range
