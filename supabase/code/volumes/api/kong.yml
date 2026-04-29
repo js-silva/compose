@@ -48,6 +48,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -94,6 +96,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -140,6 +144,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -189,6 +195,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -247,6 +255,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -305,6 +315,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -369,6 +381,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -426,6 +440,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -483,6 +499,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -532,6 +550,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
@@ -652,6 +672,8 @@ services:
           origins:
             - "https://ndigital.lovable.app"
             - "https://supabase.ndigital.3dthink.cloud"
+            - "https://n-digital.dev"
+            - "https://www.n-digital.dev"
           methods:
             - GET
             - POST
