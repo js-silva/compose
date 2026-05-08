@@ -50,6 +50,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -78,10 +79,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -100,6 +105,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -128,10 +134,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -150,6 +160,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -178,10 +189,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -203,6 +218,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -231,10 +247,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -265,6 +285,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -293,10 +314,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -327,6 +352,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -355,10 +381,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -395,6 +425,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -423,10 +454,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -456,6 +491,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -484,10 +520,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -517,6 +557,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -545,10 +586,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -570,6 +615,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -598,10 +644,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
@@ -694,6 +744,7 @@ services:
             - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
           methods:
             - GET
             - POST
@@ -722,10 +773,14 @@ services:
             - x-supabase-client-runtime-version
             - prefer
             - x-retry-count
+            - range
+            - x-requested-with
           exposed_headers:
             - X-Auth-Token
             - Content-Range
             - Content-Length
+            - X-Kong-Upstream-Latency
+            - X-Kong-Proxy-Latency
           credentials: true
           max_age: 3600
           preflight_continue: false
