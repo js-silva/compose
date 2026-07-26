@@ -46,11 +46,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -101,11 +101,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -156,11 +156,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -214,12 +214,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
+            - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -282,11 +281,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -349,11 +348,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -422,11 +421,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -488,11 +487,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -554,11 +553,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -612,11 +611,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
@@ -741,11 +740,11 @@ services:
       - name: cors
         config:
           origins:
-            - "https://ndigital.lovable.app"
-            - "https://supabase.ndigital.3dthink.cloud"
             - "https://n-digital.dev"
             - "https://www.n-digital.dev"
-            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
+            - "https://ndigital.lovable.app"
+            - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
+            - "https://sbase.n-digital.dev"
           methods:
             - GET
             - POST
