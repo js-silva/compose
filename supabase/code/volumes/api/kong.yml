@@ -51,6 +51,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -62,12 +63,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -77,10 +75,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -106,6 +104,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -117,12 +116,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -132,10 +128,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -161,6 +157,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -172,12 +169,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -187,10 +181,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -219,6 +213,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -230,12 +225,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -245,10 +237,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -286,6 +278,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -297,12 +290,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -312,10 +302,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -353,6 +343,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -364,12 +355,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -379,10 +367,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -426,6 +414,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -437,12 +426,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -452,10 +438,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -492,6 +478,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -503,12 +490,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -518,10 +502,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -558,6 +542,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -569,12 +554,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -584,10 +566,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -616,6 +598,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -627,12 +610,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -642,10 +622,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -745,6 +725,7 @@ services:
             - "https://ndigital.lovable.app"
             - "https://id-preview--d2baa261-1a65-4bda-a6cf-ae84a210b533.lovable.app"
             - "https://sbase.n-digital.dev"
+            - "https://d2baa261-1a65-4bda-a6cf-ae84a210b533.lovableproject.com"
           methods:
             - GET
             - POST
@@ -756,12 +737,9 @@ services:
           headers:
             - Accept
             - Accept-Version
-            - Content-Length
-            - Content-MD5
             - Content-Type
-            - Date
-            - X-Auth-Token
             - Authorization
+            - X-Auth-Token
             - apikey
             - x-client-info
             - Accept-Profile
@@ -771,10 +749,10 @@ services:
             - x-supabase-client-platform-version
             - x-supabase-client-runtime
             - x-supabase-client-runtime-version
-            - prefer
+            - Prefer
             - x-retry-count
-            - range
-            - x-requested-with
+            - Range
+            - X-Requested-With
           exposed_headers:
             - X-Auth-Token
             - Content-Range
