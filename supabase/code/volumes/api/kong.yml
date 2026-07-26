@@ -79,6 +79,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -132,6 +136,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -185,6 +193,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -241,6 +253,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -306,6 +322,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -371,6 +391,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -442,6 +466,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -506,6 +534,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -570,6 +602,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -626,6 +662,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
@@ -753,6 +793,10 @@ services:
             - x-retry-count
             - Range
             - X-Requested-With
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Methods
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Credentials
           exposed_headers:
             - X-Auth-Token
             - Content-Range
